@@ -370,14 +370,21 @@ h6,
     background-size: contain;
 }
 
-.service-item h5,
+.service-item h5,li,
 .service-item p {
     transition: .5s;
 }
 
-.service-item:hover h5,
+.service-item:hover h5,li,
 .service-item:hover p {
     color: #FFFFFF;
+}
+
+.service-item li {
+    color: black;
+}
+.service-item:hover li {
+    color: white;
 }
 
 .service-item a.btn {
@@ -646,4 +653,9 @@ h6,
     content: '-';
     left: -5px;
     font-size: 1.5rem;
+}
+
+
+.alicode{
+    list-style: disc;
 }
